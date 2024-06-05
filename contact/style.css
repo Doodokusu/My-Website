@@ -1,0 +1,26 @@
+.contact {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 80vh;
+    padding: 0;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    padding: 0rem calc(5rem - 1.5vw);
+}
+
+.column-left h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.column-left p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+}

@@ -1,0 +1,33 @@
+.about-me {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 80vh;
+    padding: 0;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    padding: 0rem calc(5rem - 1.5vw);
+}
+
+.column-left h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.column-left p {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.column-left a {
+    text-decoration: none;
+    color: inherit;
+    font-style: italic;
+    font-weight: bold;
+}
